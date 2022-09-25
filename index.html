@@ -73,6 +73,52 @@
             </td>
           </tr>
 		
+		
+		
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='FPM_image'>
+                  <img src='images/FPM_after.jpg' width="160"></div>
+                <img src='images/FPM_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('FPM_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('FPM_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/1805.03593.pdf">
+                <papertitle>Phase retrieval for Fourier Ptychography under varying amount of measurements</papertitle>
+              </a>
+              <br>
+              <strong>Lokesh Boominathan</strong>,
+	      <a href="https://mayug.github.io">Mayug Maniparambil</a>,
+	      <a href="https://github.com/honeygupta">Honey Gupta</a>,
+	      Rahul Baburajan,
+	      <a href="https://www.ee.iitm.ac.in/kmitra/">Dr. Kaushik Mitra</a>
+              <br>
+              <em>BMVC</em>, 2018
+              <br>
+              <a href="https://arxiv.org/pdf/1805.03593.pdf">arXiv</a>
+              <p></p>
+              <p>
+              Developed a deep learning based phase retrieval algorithm for Fourier Ptychographic Microscopy that is fast and requires fewer acquisitions than traditional phase retrieval algorithms.
+              </p>
+            </td>
+          </tr>		
+		
+		
+		
+		
+		
+		
           <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
